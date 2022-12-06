@@ -4,12 +4,13 @@
             height="200px">
     </div>
     <div class="big-card-tittle">
-       <h1><a href="#">{{cardTittle}}</a></h1>
+       <h1><a [routerLink]="['content', Id]">{{cardTittle}}</a></h1>
     </div>
     <div class="big-card-description">
-        <a href="">
+        <a [routerLink]="['content', Id]">
             <p>{{cardDescription}}
              </p>
          </a>
-    </div>
+    </div> 
 </div>
+

@@ -1,0 +1,30 @@
+*{
+    color: black !important;
+    background-color: white !important;  
+}
+.footer-tudo{
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer-card { 
+    
+
+    width: 400px;
+    height: 100%;
+    
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 20px;
+    align-items: center;
+
+    padding: 20px;
+ }
+
+ .texto-footer > p{
+    color: grey;
+ }
+
+
